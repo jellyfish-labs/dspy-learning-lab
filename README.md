@@ -14,6 +14,23 @@ Python 3.9 or newer is required.
 
 ```bash
 python -m venv .venv
+```
+
+Activate the virtual environment before installing dependencies.
+
+**macOS/Linux:**
+
+```bash
+source .venv/bin/activate
+```
+
+**Windows (PowerShell):**
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+```bash
 python -m pip install -e .
 ```
 
